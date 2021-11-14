@@ -36,7 +36,12 @@ import {
   ElDescriptions,
   ElDescriptionsItem,
   ElBacktop,
-  ElSwitch
+  ElSwitch,
+  ElBadge,
+  ElTabs,
+  ElTabPane,
+  ElAvatar,
+  ElEmpty
 } from "element-plus";
 
 // https://element-plus.org/zh-CN/component/icon.html
@@ -54,7 +59,8 @@ import {
   RefreshRight,
   ArrowDown,
   Close,
-  CloseBold
+  CloseBold,
+  Bell
 } from "@element-plus/icons";
 
 const components = [
@@ -94,6 +100,11 @@ const components = [
   ElDescriptionsItem,
   ElBacktop,
   ElSwitch,
+  ElBadge,
+  ElTabs,
+  ElTabPane,
+  ElAvatar,
+  ElEmpty,
 
   // icon
   Check,
@@ -109,7 +120,8 @@ const components = [
   RefreshRight,
   ArrowDown,
   Close,
-  CloseBold
+  CloseBold,
+  Bell
 ];
 
 const plugins = [ElLoading];
